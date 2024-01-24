@@ -1,0 +1,41 @@
+*{
+  margin:0
+}
+
+.main {
+  position: relative;
+  width: 600px;
+  margin: 0 auto;
+}
+
+h1, h2{
+  text-align: center;
+}
+
+.tooltip {
+  font-size: 10px;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  padding: 10px;
+  position: absolute;
+  width: 200px;
+  pointer-events: none;
+  margin: 0;
+}
+
+#legend {
+  font-size: 14px;
+  margin: 0 auto;
+  width: 130px;
+  border: 1px solid black;
+  padding: 3px;
+}
+
+.doping {
+  color: rgba(255, 166, 0, 0.8)
+}
+
+.notDoping {
+  color:rgba(0, 81, 255, 0.8)
+}

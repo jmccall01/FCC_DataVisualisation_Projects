@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #6e869e;
+}
+
+.graph-container {
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  box-shadow: 2px 2px 20px;
+  text-align: center;
+  height: 300px;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+.bar:hover {
+  fill: grey;
+}
+
+.tooltip{
+  height: 25px;
+  width: 75px;
+  background-color: rgba(90, 90, 90, 0.97);
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  top: 220px;
+}
